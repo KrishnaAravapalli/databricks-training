@@ -2,40 +2,68 @@
 
 ## Overview
 
-This folder contains SQL practice queries and solutions completed as part of the Databricks Training program. The exercises cover fundamental to intermediate SQL concepts including filtering, sorting, grouping, aggregation, joins, subqueries, correlated queries, and combined analytical queries.
+This folder contains Day 1 SQL practice exercises completed as part of the Databricks Training program. The work focuses on relational database concepts, SQL query writing, table creation, data insertion, filtering, aggregation, grouping, and analytical queries.
 
-The objective of this practice is to strengthen SQL query writing skills and improve understanding of relational database operations.
-
----
-
-## Database Schema
-
-The practice was performed using the following tables:
-
-1. Employee
-2. Department
-3. Project
-
-These tables were created using SQL DDL statements and populated with sample data for query execution and analysis.
+The exercises were performed using a sample database consisting of Employee, Department, and Project tables.
 
 ---
 
-## Topics Covered
+## Database Used
+
+Database Name:
+week1
+
+Tables Created:
+- Department
+- Employee
+- Project
+
+The database schema includes:
+- Primary Keys
+- Foreign Keys
+- Relational Mapping between tables
+
+---
+
+## Data Preparation
+
+The following operations were completed:
+
+### Table Creation
+- Department table
+- Employee table
+- Project table
+
+### Data Insertion
+Sample records were inserted into all tables to perform SQL query practice and testing.
+
+### Additional Test Data
+Additional records were inserted to test:
+- NULL values
+- Employees without departments
+- Projects without departments
+- Join edge cases
+- Nested query conditions
+
+---
+
+## SQL Concepts Practiced
 
 ### Basic Queries
 - SELECT statements
-- Filtering rows using WHERE clause
 - Column selection
+- Filtering using WHERE clause
 
 ### String Matching
 - LIKE operator
 - Wildcards
-- Pattern matching
+- Pattern searching
 
 ### Date Queries
-- YEAR() and MONTH() functions
-- Date filtering
-- Relative date calculations
+- YEAR()
+- MONTH()
+- DATE filtering
+- Relative date conditions
 
 ### Aggregate Functions
 - SUM()
@@ -43,39 +71,20 @@ These tables were created using SQL DDL statements and populated with sample dat
 - MAX()
 - COUNT()
 
-### Group By Operations
-- GROUP BY clause
-- Department-wise calculations
+### GROUP BY Operations
+- Department-wise grouping
 - Year-wise grouping
+- Aggregate calculations
 
-### Having Clause
+### HAVING Clause
 - Filtering grouped records
 - Aggregate-based conditions
 
-### Order By Operations
-- Sorting records
-- Multi-column ordering
-
-### Join Queries
-- INNER JOIN
-- LEFT JOIN
-- Combining multiple tables
-
-### Nested and Correlated Queries
-- Subqueries
-- Correlated subqueries
-- Aggregate comparisons
-
-### Moderate Difficulty Queries
-- Combined conditions
-- Analytical queries
-- Department-based comparisons
-
 ---
 
-## Total Queries Practiced
+## Total Queries Implemented
 
-A total of 65 SQL queries were implemented and tested successfully.
+A total of 30 SQL queries were completed in Day 1 practice.
 
 ---
 
@@ -83,13 +92,13 @@ A total of 65 SQL queries were implemented and tested successfully.
 
 ### questions_and_answers.sql
 Contains:
-- Table creation statements
+- Database creation statements
+- Table creation scripts
 - Insert statements
-- All SQL practice questions
-- Solutions for all 65 queries
+- SQL query solutions
 
 ### README.md
-Documentation file describing the contents and objectives of the practice session.
+Documentation describing the Day 1 practice work and concepts covered.
 
 ---
 
@@ -104,25 +113,25 @@ Documentation file describing the contents and objectives of the practice sessio
 
 ## Learning Outcomes
 
-After completing these exercises, the following concepts were practiced and understood:
+After completing this practice, the following skills were improved:
 
-- Writing efficient SQL queries
-- Working with relational databases
-- Applying aggregate and grouping functions
-- Performing joins between tables
-- Using nested and correlated queries
-- Organizing SQL practice professionally using GitHub repositories
+- Understanding relational database structure
+- Writing SQL queries efficiently
+- Using aggregate and grouping functions
+- Working with date functions
+- Implementing filtering and sorting operations
+- Handling NULL values and edge cases
 
 ---
 
-## Repository Structure
+## Folder Structure
 
 databricks-training/
 │
 ├── week1/
 │   ├── day1/
 │       ├── README.md
-│       ├── questions_and_answers.sql
+│       ├── sql_queries1.sql
 
 ---
 
